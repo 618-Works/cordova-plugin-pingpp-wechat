@@ -255,7 +255,7 @@
 
         <!-- Apple Pay -->
         <framework src="PassKit.framework" />
-        
+
         <source-file src="sdk/ios/lib/Channels/ApplePay/libpingpp+applepay.a" framework="true"/>
         <header-file src="sdk/ios/lib/Channels/ApplePay/Pingpp+ApplePay.h" />
 
@@ -306,6 +306,4 @@
         <header-file src="sdk/ios/lib/Channels/Bfb/Dependencies/SDWebImage/UIImageView+WebCache.h"/>
         <source-file src="sdk/ios/lib/Channels/Bfb/Dependencies/SDWebImage/libSDWebImage.a" framework="true"/>
     </platform>
-
-    <hook type="before_plugin_install" src="scripts/clone_pingpp_sdk.js" />
 </plugin>
