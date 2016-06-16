@@ -103,6 +103,4 @@
             You need to add URL_SCHEME to your iOS project.
         </info>
     </platform>
-
-    <hook type="before_plugin_install" src="scripts/clone_pingpp_sdk.js" />
 </plugin>
